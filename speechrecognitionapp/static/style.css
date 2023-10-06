@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(255, 239, 219);
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    background-color: bisque;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.704);
+}
+.cont2{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 15rem;
+}
+
+.cont3{
+    display: grid;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 15rem;
+    height: 8rem;
+    transition: ease-in-out .3s;
+    border-radius: 1rem;
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.706),5px 5px 10px rgba(0, 0, 0, 0.706);
+    
+}
+.btn{
+    width: 9rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.707),5px 5px 10px rgba(0, 0, 0, 0.707);
+    background-color: rgb(255, 143, 6);
+    color: aliceblue;
+    transition: ease-in-out .1s;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.707),5px 0px 10px rgba(0, 0, 0, 0.705);
+
+}
+.btn:active{
+    background-color: rgb(97, 53, 0);
+}
+
+.txt{
+    transition: ease-in-out .3s;
+}
